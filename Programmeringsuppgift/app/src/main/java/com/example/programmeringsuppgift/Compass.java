@@ -17,7 +17,7 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
     private SensorManager SensorManage;
 
     // define the compass picture that will be use
-    private ImageView compassimage;
+    private ImageView compassImage;
 
     // record the angle turned of the compass picture
     private float DegreeStart = 0f;
@@ -31,7 +31,7 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
         setContentView(R.layout.activity_compass);
 
         // Compass methods
-        compassimage = (ImageView) findViewById(R.id.compass_image);
+        compassImage = (ImageView) findViewById(R.id.compass_image);
         // TextView that will display the degree
         DegreeTV = (TextView) findViewById(R.id.DegreeTV);
         // initialize your android device sensor capabilities
@@ -72,7 +72,7 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
         ra.setDuration(210);
 
         // Start animation of compass image
-        compassimage.startAnimation(ra);
+        compassImage.startAnimation(ra);
         DegreeStart = -degree;
     }
 

@@ -17,10 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/compass_image"
-            android:layout_below="@+id/compass_image"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:text="@string/compass_heading"
             android:textColor="@color/teal_700"
@@ -30,9 +28,9 @@
         <ImageView
             android:id="@+id/compass_image"
             android:layout_width="match_parent"
-            android:layout_height="631dp"
+            android:layout_height="600dp"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/compass_iconv2" />
+            android:src="@drawable/compass_iconv3" />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

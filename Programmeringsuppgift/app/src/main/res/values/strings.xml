@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Programmeringsuppgift</string>
+    <string name="compass_button">Compass</string>
+    <string name="accelerator_button">Accelerator</string>
+    <string name="compass_heading">Pekar mot 0.0 grader</string>
+    <string name="x_axis">0.0</string>
+    <string name="y_axis">0.0</string>
+    <string name="z_axis">0.0</string>
+    <string name="direction">FLAT</string>
+</resources>

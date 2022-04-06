@@ -24,7 +24,6 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
 
     TextView DegreeTV;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

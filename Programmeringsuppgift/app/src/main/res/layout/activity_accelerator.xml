@@ -10,13 +10,15 @@
         android:id="@+id/directionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="336dp"
-        android:textSize="40dp"
         android:textColor="#000000"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zAxis" />
 
     <TextView
         android:id="@+id/zAxis"
@@ -37,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="52dp"
-        android:text="Axis Coordinates"
+        android:text="@string/label"
         android:textColor="#000000"
         android:textSize="30dp"
         android:textStyle="bold"

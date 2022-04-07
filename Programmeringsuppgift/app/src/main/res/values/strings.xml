@@ -7,4 +7,5 @@
     <string name="y_axis">0.0</string>
     <string name="z_axis">0.0</string>
     <string name="direction">FLAT</string>
+    <string name="label">Telefonens koordinater:</string>
 </resources>
